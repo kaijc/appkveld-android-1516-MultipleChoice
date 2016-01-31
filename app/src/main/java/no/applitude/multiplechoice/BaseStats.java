@@ -15,10 +15,13 @@ public class BaseStats {
         baseDefence = defence;
     }
 
-    public void levelUp(Stats stats){
-        //algorithm(random)
-        stats.attack += baseAttack * 0.1;
-        stats.defence += baseDefence * 0.1;
-        stats.health += baseHealth * 0.5;
+    public int getBaseHealth() {
+        return baseHealth;
     }
+
+    public int getBaseAttack() {
+        return baseAttack;
+    }
+
+    public int getBaseDefence() { return baseDefence; }
 }
