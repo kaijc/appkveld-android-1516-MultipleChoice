@@ -10,10 +10,6 @@ public class Stats {
     private int attack;
     private int defence;
 
-    public Stats(BaseStats base){
-        this.base = base;
-    }
-
     //This is a total ripoff of Pokemon's leveling system
     public void setLevel(int level){
         this.level = level;
