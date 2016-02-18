@@ -17,6 +17,5 @@ public class MainActivity extends AppCompatActivity {
         AssetManager am = getApplicationContext().getAssets();
         Typeface unifont = Typeface.createFromAsset(am, String.format(Locale.US, "fonts/%s", "unifont.ttf"));
         ((TextView)findViewById(R.id.text)).setTypeface(unifont);
-       // Player p = new Player("Name", "mage");
     }
 }
