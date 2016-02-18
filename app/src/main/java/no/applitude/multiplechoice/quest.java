@@ -6,18 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class quest extends AppCompatActivity {
 
-    Button mPlay;
+    Button mBattle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.player_name);
+        setContentView(R.layout.activity_quest);
 
-        mPlay =(Button)findViewById(R.id.btnPlay);
+        mBattle =(Button)findViewById(R.id.btnBattle);
 
-        mPlay.setOnClickListener(new View.OnClickListener() {
+        mBattle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent();
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Intent(){
-        Intent intent = new Intent(this, quest.class);
+        Intent intent = new Intent(this, Store.class);
         startActivity(intent);
     }
 }

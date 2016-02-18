@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MultipleChoice.iml" filepath="$PROJECT_DIR$/MultipleChoice.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appkveld-android-1516-MultipleChoice kopi.iml" filepath="$PROJECT_DIR$/appkveld-android-1516-MultipleChoice kopi.iml" />
     </modules>
   </component>
 </project>

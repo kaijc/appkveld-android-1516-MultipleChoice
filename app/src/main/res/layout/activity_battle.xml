@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="no.applitude.multiplechoice.Battle">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="289dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Run"
+            android:id="@+id/btnRun"
+            android:layout_alignTop="@+id/linearLayout3"
+            android:layout_alignEnd="@+id/linearLayout3"
+            android:layout_gravity="right" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attack1"
+            android:id="@+id/btnAtt1"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attack2"
+            android:id="@+id/btnAtt2"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attack3"
+            android:id="@+id/btnAtt3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attack4"
+            android:id="@+id/btnAtt4" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="70/100__________"
+        android:id="@+id/txtLifeEnemy"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fiende"
+        android:id="@+id/txtEnemy"
+        android:layout_below="@+id/txtLifeEnemy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You got attacked by"
+        android:id="@+id/txtAttNow"
+        android:textSize="40dp"
+        android:layout_below="@+id/txtEnemy"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You"
+        android:id="@+id/txtYou"
+        android:textSize="35dp"
+        android:layout_below="@+id/txtAttNow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________70/100"
+        android:id="@+id/txtLifeYou"
+        android:textSize="15dp"
+        android:layout_below="@+id/txtYou"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp" />
+
+</RelativeLayout>
