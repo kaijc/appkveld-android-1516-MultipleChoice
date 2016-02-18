@@ -9,17 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="no.applitude.multiplechoice.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Player Name"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="168dp" />
     <EditText
         android:layout_width="200dp"
-        android:layout_height="30dp"
-        android:layout_below="@id/textView"
-        android:layout_centerHorizontal="true"/>
+        android:layout_height="300dp"
+        android:hint="test\u1F47E"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp"
+        android:fontFamily="Arial"
+        android:id="@+id/text"/>
 </RelativeLayout>
