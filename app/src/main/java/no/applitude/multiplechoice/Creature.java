@@ -1,5 +1,8 @@
 package no.applitude.multiplechoice;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by roypur on 1/27/16.
  */
@@ -7,6 +10,8 @@ public abstract class Creature {
     private int health;
     private Stats stats;
     private String name;
+    private int money;
+    private List<Attack> attacks = new ArrayList<>();
     //Unicode symbol of the creature
     private char symbol;
 
@@ -28,6 +33,18 @@ public abstract class Creature {
 
     public Stats getStats() {
         return stats;
+    }
+
+    public int getMoney() {
+        return money;
+    }
+
+    public void setMoney(int money) {
+        this.money = money;
+    }
+
+    public List<Attack> getAttacks() {
+        return attacks;
     }
 
     public void setLevel(int level){
